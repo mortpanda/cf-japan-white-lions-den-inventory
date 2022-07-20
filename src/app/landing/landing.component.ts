@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
 import {OktaWidgetService } from 'app/shared/okta/okta-widget.service';
+import {OktaConfigService} from  'app/shared/okta/okta-config.service';
 
 @Component({
   selector: 'app-landing',
@@ -12,10 +13,11 @@ export class LandingComponent implements OnInit {
 
   constructor(
     public OktaWidgetService:OktaWidgetService,
+    private OktaConfigService:OktaConfigService,
   ) { }
 
   async ngOnInit() {
-    this.OktaWidgetService.login();
+    this.OktaWidgetService.login(this.OktaConfigService.strRedirectURL);
   }
 
 }

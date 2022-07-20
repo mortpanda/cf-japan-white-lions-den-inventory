@@ -7,6 +7,7 @@ import { OktaAuth} from '@okta/okta-auth-js'
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { OktaConfigService } from "app/shared/okta/okta-config.service";
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -35,7 +36,7 @@ export class LoginComponent implements OnInit {
       });
     switch (this.strUserSession) {
       case false:
-        this.OktaWidgetService.login();
+        this.OktaWidgetService.login(this.OktaConfig.strRedirectURL);
         break;
 
       case true:
