@@ -1,0 +1,137 @@
+.btn{
+  border-radius: 5px!important;
+  border-color: #892100!important;
+  background-color: #892100!important;
+  color: #FFFFFF!important;
+  z-index: auto!important;
+}
+
+.btn:focus{
+  border-radius: 5px!important;
+  border-color: #892100!important;
+  background-color: #892100!important;
+  color: #FFFFFF!important;
+  z-index: auto!important;
+}
+
+.btn:hover{
+  border-radius: 5px!important;
+  border-color: #892100!important;
+  background-color: #FFFFFF!important;
+  color: #892100!important;
+  z-index: auto!important;
+}
+
+.btn:active{
+  border-radius: 5px!important;
+  border-color: #892100!important;
+  background-color: #FFFFFF!important;
+  color: #892100!important;
+  z-index: auto!important;
+}
+
+
+
+.btn-round {
+  border-radius: 0px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+  
+}
+.navbar.navbar-transparent {
+  // padding-top: 0px;
+  // z-index: 999999999;
+  
+}
+.navbar-transparent .navbar-brand{
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  // z-index: 999999999;
+}
+ 
+
+#logged_in_user{
+  text-align:center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto ;
+  vertical-align: middle;
+  padding: 50px;
+
+}
+
+.navBanner{
+  height:90px!important;
+  width:auto!important;
+  z-index: auto!important;
+}
+
+.btn{
+  background-color: #892100!important;
+  color:#FFFFFF!important;
+}
+
+.btn:active{
+  background-color: #FFFFFF!important;
+  color: #892100!important;
+}
+
+.btn:hover{
+  background-color: #FFFFFF!important;
+  color: #892100!important;
+}
+
+.btn:after :focus{
+  background-color: #FFFFFF!important;
+  color:#892100!important;
+}
+
+
+// .btnLion{
+//   background-color: #892100!important;
+//   color:#FFFFFF!important;
+// }
+
+// .btnLion:active{
+//   background-color: #FFFFFF!important;
+//   color: #892100!important;
+// }
+
+// .btnLion:hover{
+//   background-color: #FFFFFF!important;
+//   color: #892100!important;
+// }
+
+// .btnLion:after :focus{
+//   background-color: #FFFFFF!important;
+//   color: #892100!important;
+
+
+// .navbar-burger{
+//   background-color: #892100!important; 
+//   padding:15px!important;
+//  }
+
+
+// .navbar-burger:hover{
+//     background-color: #FFFFFF!important; 
+      
+// }
+.navbar-toggler-bar{
+  background-color: #892100!important; 
+}
+
+.nav-link{
+  color: #41414B!important; 
+}
+
+// .navbar-toggler:focus, .navbar-toggler:hover {
+//   background-color: #892100!important; 
+//   padding:15px!important;
+// }
