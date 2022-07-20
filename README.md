@@ -1,0 +1,1 @@
+# cf-japan-white-lions-den-inventory
